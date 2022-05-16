@@ -1,0 +1,33 @@
+.alert {
+        background-color: #FF5500;
+    }
+    
+.ready {
+    	background-color: #00FF00;
+    }
+	
+body {
+  background-color: lightblue;
+}
+
+.parent {
+  /*border: 1px solid black;*/
+  /*margin: 1rem;
+  padding: 2rem 2rem;*/
+  text-align: left;
+}
+.child {
+  display: inline-block;
+  /*border: 1px solid red;*/
+  padding: 1rem 1rem;
+  vertical-align: top;
+}
+
+td {
+  text-align: right;
+  vertical-align: bottom;
+}
+
+table.tensor {
+	border-spacing: 10px;
+}	
