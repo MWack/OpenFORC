@@ -38,6 +38,7 @@ var pyodide = false
 import Nav from './nav.js'
 import Home from './home.js'
 import Tensor from './anisotropy/tensor.js'
+import FORC from './forc/forc.js'
 
 const About = { template: '<div>About</div>' }
 
@@ -47,6 +48,7 @@ const About = { template: '<div>About</div>' }
 const routes = [
   { path: '/', component: Home },
   { path: '/tensor', component: Tensor },
+  { path: '/forc', component: FORC },
   { path: '/about', component: About },
 ]
 

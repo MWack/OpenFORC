@@ -13,12 +13,12 @@ const template = `<div class="navbar">
   
   
   <div class="dropdown">
-    <button class="dropbtn">Paleomagnetism
+    <button class="dropbtn">FORC
       <i class="fa fa-caret-down"></i>
     </button>
-    <div id="entries_paleomagnetism" class="dropdown-content">
-	<router-link to="/suncompass">Sun Compass</router-link>
-	<router-link to="/stratigraphy">Stratigraphy</router-link>
+    <div id="entries_forc" class="dropdown-content">
+	<router-link to="/forc">FORC</router-link>
+	<!-- <router-link to="/stratigraphy">Stratigraphy</router-link> -->
     </div>
   </div>
 </div>
